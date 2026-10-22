@@ -4,10 +4,6 @@ A Claude Code kit that drafts the weekly internal status update for a client pro
 
 **Before:** about 45 minutes by hand. **With the kit:** a draft in about 5 minutes, and about 10 minutes of my time including review. See [`decisions.md`](decisions.md) for every run.
 
-🎥 **Demo video:** [Watch the walkthrough on Loom](https://www.loom.com/share/64c1cdb444aa4bf4a0008e702d4af5cd)
-
-> ⚠️ **This kit is built around one specific weekly task, so it won't run until you configure it.** It has to know *your* status doc, Jira project, email label, Slack channel, meeting folder and status items. Setup takes about 15 minutes, and the skill checks it before every run. See [Configure before your first run](#configure-before-your-first-run).
-
 ## Is this kit for you?
 
 It fits if your week looks like this:
