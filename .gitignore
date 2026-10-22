@@ -1,0 +1,15 @@
+# Project data: local only, never commit
+kit.config
+.claude/skills/weekly-status/references/items.md
+.claude/skills/weekly-status/references/client-rules.md
+drafts/
+
+# Claude Code local settings (per person)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Video files
+*.mp4
+*.mov

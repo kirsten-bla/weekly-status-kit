@@ -1,0 +1,33 @@
+# Weekly status kit: your project's settings.
+# Copy this file to kit.config (gitignored, never commit it) and fill in every value.
+# The skill checks this file first and won't run until the required values are set.
+# Not sure where to find an ID? Open Claude Code here and ask: "help me fill in kit.config".
+
+# --- Required ---------------------------------------------------------------
+
+# Status doc (Google Docs): one entry per week, newest first
+STATUS_DOC_ID=            # from the doc URL: docs.google.com/document/d/<this part>/edit
+STATUS_DOC_HEADING=       # optional: the heading the weekly entries sit under (e.g. the project name)
+
+# Client name, used in lines like "Get approval from <client>"
+CLIENT_NAME=
+
+# Jira
+JIRA_SITE=                # e.g. yourcompany.atlassian.net
+JIRA_PROJECT=             # project key, e.g. ABC
+JIRA_SPRINT_FIELD=        # the Sprint field id, often customfield_10010
+
+# Email (Gmail): the label on the client's threads
+GMAIL_LABEL=
+
+# Slack: the channel or DM where this week's internal updates are posted
+SLACK_CHANNEL_ID=         # C... or D... (channel details → bottom of the About tab)
+
+# Granola: the meeting-notes folder (its subfolders are included)
+GRANOLA_FOLDER_ID=
+
+# --- Scheduled run only (optional) ------------------------------------------
+
+SLACK_SELF_DM_ID=         # your self-DM channel id (D...); the only place the hook lets the kit send
+SLACK_USER_ID=            # your Slack user id (U...); routes to the same self-DM
+CLAUDE_BIN=               # path to the claude binary, e.g. /Users/you/.local/bin/claude
